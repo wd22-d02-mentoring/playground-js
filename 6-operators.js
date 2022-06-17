@@ -53,31 +53,6 @@ if(quantity >= undefined) {
   console.log( "Quantity ist da!" )
 }
 
-// TERNARY
-
-console.log( 5 > 3 ? "5 größer 3" : "5 nicht größer 3" )
-console.log( "b" > "a" ? "b größer a" : "b nicht größer a" )
-console.log( 15 - 13 ? "15 größer 13" : "15 nicht größer 13")
-
-let logged // undefined
-console.log(logged ? "Eingeloggt dude!" : "Raus hier") // if else
-
-// a = 4, bla = 16
-console.log( "Mindfuck ternary", a > bla ? "a" == "c" : 15 - 13 ? a - 5 : "17" )
-
-if(a > bla) {
-  console.log( "a" == "c" )
-}
-else {
-  
-  if( 15 - 13 ) {
-    console.log(a- 5)
-  }
-  else {
-    console.log("17")
-  }
-}
-
 
 // if just chekcs TRUTHINESS, but not necessarily true values
 if(15-3) {
@@ -86,14 +61,18 @@ if(15-3) {
 
 
 /**
- * 1 => true
- * 0 => false
+ * TRUTHY und TRUTHINESS
+ * 
+ * true => ist true, klar :)
+ * 1 => gilt in JS als true
+ * 0 => gilt in JS als false
+ * 
  * 
  * 1 == true
- * 2 != true
- * -1 != true
+ * 2 != true // 2 ist truthy (also nicht leer). Aber es ist NICHT true!
+ * -1 != true // -1 ist truthy (also nicht leer). Aber es ist NICHT true!
  * 
- * Empty values => "",'',  0, undefined, null, NaN
+ * Empty values => "",'',  0, undefined, null, NaN (alle falsy!)
  */
 
 
@@ -103,8 +82,9 @@ if(15-3) {
 // "" => falsy
 
 
-// Real life beispiel
-// Truthiness can hurt => and why a COMPARISON is often better!
+// Real Life Beispiel
+// Truthiness can hurt and can cause to make a decision we did not want
+// => and why a COMPARISON is often better!
 
 const productPrice = 10
 const rebate = 15
