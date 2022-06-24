@@ -12,14 +12,8 @@
 // 2. INPUT: name // Argument / Parameter
 // 3. function greetPerson( name )
 // 4. OUTPUT: return a greeting string: "Hallo " + name + "!"
-// 5. logic der function
-
-// EXAMPLE INPUT: "Rob"
-// EXAMPLE OUTPUT: Grüss dich, Rob
-
-// EXAMPLE INPUT: "Ella"
-// EXAMPLE OUTPUT: Grüss dich, Ella
-
+// 5. logic der function: "Hallo", INPUT param und "!" kombinieren
+ 
 
 function greetPerson( name ) { // INPUT
   const greeting = "Hallo " + name + "!" // LOGIC 
