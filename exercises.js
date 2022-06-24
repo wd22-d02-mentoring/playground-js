@@ -21,8 +21,8 @@ function greetPerson( name ) { // INPUT
 }
 
 // TEST
-console.log( greetPerson("Ella") ) // expect: "Grüss dich, Ella"
-console.log( greetPerson("Martin") ) // expect: "Grüss dich, Martin"
+console.log( greetPerson("Ella") ) // expect: "Hallo, Ella"
+console.log( greetPerson("Martin") ) // expect: "Hallo, Martin"
 
-const greetingDima = greetPerson("Dima") // expect: "Grüss dich, Dima"
+const greetingDima = greetPerson("Dima") // expect: "Hallo, Dima"
 console.log( greetingDima )
