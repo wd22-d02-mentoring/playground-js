@@ -18,19 +18,14 @@
 // OUTPUT: [Kaffee, Wechselgeld] | Fehlermeldung / amount
 
 
-// SZENARIO
-// User wählt Latte
-// Wirft 50 Cent
-// => Press Coffee button
-
 /**
- * type = 1 => Crema => Preis: 1
- * type = 2 => Flat White => Preis: 1.50
- * type = 3 => Latte => Preis: 2
+ * type = c => Crema => Preis: 1
+ * type = f => Flat White => Preis: 1.50
+ * type = l => Latte => Preis: 2
  */
 
-// once the user really ORDERED the coffee by button click
-// => we will executre this thing here
+// once the user really ordered the coffee by button click
+// => we will execute this function here ( so we will not collect coins piece by piece...)
 function getCoffee(type, amount) {
 
   const MINIMUM_AMOUNT = 1
