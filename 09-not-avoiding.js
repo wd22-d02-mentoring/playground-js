@@ -1,3 +1,7 @@
+// PROBLEM:
+// Wir NESTEN unseren Code mit jedem weiteren Check immer mehr nach rechts
+// Wir müssen immer weiter nach rechts scrollen...
+
 
 let loggedIn = false
 
@@ -11,7 +15,6 @@ if(loggedIn)
   let quantity = 0 // falsy wert
 
   if (quantity) {
-    // ! 0 => true
     console.log("Du Sau! Ohne Quantity kann man hier nicht bestellen")
 
 
