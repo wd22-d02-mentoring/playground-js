@@ -61,12 +61,12 @@ function getCoffee(type, amount) {
       return amount  
   }
 
-  // SUCCESS CASE
+  // SUCCESS CASE => GELD reicht für den gewählten Kaffee
   if(amount >= price) {
     const wechselgeld = amount - price // Beispiel: 2 - 1 => 1
     return [wechselgeld, coffeeName]
   }
-  // REICHT NICHT => gib alles zurück!
+  // GELD REICHT NICHT => gib alles zurück!
   else {
     console.log(`Kostet ${price}. Du hast gegeben ${amount}. Reicht nicht! `)
     return amount    
