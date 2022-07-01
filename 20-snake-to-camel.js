@@ -51,7 +51,7 @@ const snakeToCamel = (arr) => {
 //      - nehme REST von Item 2 NACH erstem Letter => item[1].slice(1)
 //      - endresult: concatenate alle Teilergebnisse: "hallo" + uppercase "W" + "elt" => halloWelt
 // - sammele neue Items in einem neuen Array und returne diesen am Ende
-//   - brauchen array variable
+//   - brauchen array variable bevor wir anfangen zu loopen
 //   - jedes umgewandelte item in array pushen
 
 console.log(arrItems)
