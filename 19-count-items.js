@@ -1,3 +1,5 @@
+// CRUD => READ => filter out data
+
 const allCoffees = [
   "Melitta",
   "Dallmayr",
