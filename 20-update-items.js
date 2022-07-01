@@ -48,11 +48,10 @@ const snakeToCamel = (arr) => {
 //   - 1) finde unterstrich und "lösche" unterstrich
 //   - 2) letter NACH _ soll uppercase werden
 // - für jedes Item (more detailed)
-//   - 1) splite nach unterstrich => .split => zwei Teilstrings
-//      - splitte string in array mit zwei substrings
-//      - hallo_welt => split => ["hallo", "welt"]
-//      - nehme item 2 aus array => "welt" 
-//      - mache ersten Letter uppercase => str[0] => "w" .toUpperCase()
+//      - splitte string nach "_" in array mit zwei substrings
+//      - Beispiel: hallo_welt => split => ["hallo", "welt"]
+//      - nehme item 2 aus array und speichere für Verarbeitung => "welt" 
+//      - mache ersten Letter von String uppercase => str[0] => "w" .toUpperCase()
 //      - hallo, W => halloWelt => "hallo" + "W" + "welt".slice(1) => elt
 // - sammele neue Items in einem neuen Array und returne diesen am Ende
 //   - brauchen array variable
