@@ -44,6 +44,7 @@ const snakeToCamel = (arr) => {
 // INPUT: whole array to change
 // OUTPUT: whole array with same amount of items => each item camel cases!
 // - pro Item: wir brauchen drei Teilstrings => am Ende alle concatenaten zu einem neuen String => return
+// - Beispiel: aus "hallo_welt" => 3 zwischensteps: "hallo" + "W" + "elt" => zu "halloWelt"
 // LOGIC:
 // - Loope durch den Array
 // - für jedes Item:
