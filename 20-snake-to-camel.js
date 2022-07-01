@@ -53,7 +53,6 @@ const snakeToCamel = (arr) => {
 // - sammele neue Items in einem neuen Array und returne diesen am Ende
 //   - brauchen array variable
 //   - jedes umgewandelte item in array pushen
-//      // - hallo_welt => indexOf("_") => 5 => substring(0, indexOf("_"))
 
 console.log(arrItems)
 let result = snakeToCamel(arrItems)
