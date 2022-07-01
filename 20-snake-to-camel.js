@@ -22,12 +22,18 @@ const snakeToCamel = (arr) => {
 
   // LOOP => Logic
   for (let i = 0; i < arr.length; i++) {
+
+    // create "partly solutions" and store each part in variable
     const splittedItem = arr[i].split("_")
     const secondPart = splittedItem[1]
     const firstLetter = secondPart[0].toUpperCase()
     const restCamel = secondPart.slice(1)
+
+    // concatenate parts to the new item
     const camelCasedItem = splittedItem[0] + firstLetter + restCamel
-    arrCamels.push(camelCasedItem)
+
+    // store created result in array
+    arrCamels.push(camelCasedItem) 
   }
 
   return arrCamels
