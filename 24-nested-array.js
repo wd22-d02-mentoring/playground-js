@@ -1,3 +1,11 @@
+// NESTED LOOPS we mostly use
+// to loop over a array of DETAILS of a parent item
+// examples:
+// - coffees with flavors
+// - users with hobbies
+// - products with variants
+
+
 const coffees = [
   { name: "Crema", flavors: ["Caramel", "Choco"] },
   { name: "Espresso", flavors: [] },
