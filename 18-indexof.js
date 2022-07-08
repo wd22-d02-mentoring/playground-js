@@ -14,11 +14,11 @@ const allCoffees = [
 // console.log( allCoffees.indexOf("Segafredo") )
 // console.log( allCoffees.indexOf("Milk") )
 
-// returns TRUE if item found in array, otherwise FALSE
+// returns INDEX of item if item found in array, otherwise -1
 // Loope durch alle items
-// WENN item gefunden wird => return true
+// WENN item gefunden wird => return INDEX (i)
 // ELSE => checke nächstes Item!
-// Wenn alle items durch sind und nichts gefunden => returne false
+// Wenn alle items durch sind und nichts gefunden => returne -1
 const indexOf = (arr, searchItem) => {
 
   // loop through all items
