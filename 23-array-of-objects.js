@@ -30,7 +30,7 @@ const filterCoffeesByPrice = (coffees, priceMin) => {
   const coffeesPricy = [] 
   for( let coffee of coffees ) { // let item of array
     // coffee == coffees[i] => die for..of loop speichert das aktuelle Item in der Loop in der Variable coffee
-    if(coffee.price >= priceMin) { // HARDCODED nach Kriterium filern => geht gar nicht!
+    if(coffee.price >= priceMin) { // HARDCODED nach Kriterium filtern => geht gar nicht! => lieber Kriterium als INPUT in die Functon geben (priceMin)
       coffeesPricy.push( coffee )
     }
   }
