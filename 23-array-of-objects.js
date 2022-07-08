@@ -14,7 +14,7 @@ coffees.push(iceCoffee)
 console.log(coffees)
 
 // LOOP THEORY
-// for..in => loope durch OBJECT keys
+// for..in => loope durch OBJECT keys ODER durch Array Indexes (nur wenn wir den Index brauchen, z.B. für Delete)
 // for..of =>  loope durch ARRAY
 
 
