@@ -29,6 +29,8 @@ for(let user of users) {
 
 console.log()
 
+// same like above, but with nested "normal" for counting loops 
+//=> you see: way more complicated
 for(let i=0; i<coffees.length; i++) {
   const coffeeAktuell = coffees[i] // save current item in variable
   console.log(coffeeAktuell.name)
